@@ -9,6 +9,7 @@ function setup() {
 
 function draw() {
 	background(225);
+  fill('red')
   circle(x, 130, 20);
   
   x = x + 5;
